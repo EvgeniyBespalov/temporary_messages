@@ -1,0 +1,15 @@
+class MessagesController < ApplicationController
+  def index
+  end
+  def create
+    description = params[:description]
+    message = Message.new(description: description)
+
+    count = session[:count] ? session[:count] : 0
+    count += 1
+    session[:count] = count
+    respond_to do |format|
+      format.json {render json: {date: Time.new, count: count}}
+    end
+  end
+end

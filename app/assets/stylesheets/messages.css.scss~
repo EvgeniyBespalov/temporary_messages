@@ -1,0 +1,34 @@
+// Place all the styles related to the messages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.div_h_contener {
+  display: box;
+  box-orient: horizontal;
+  overflow: hidden;
+}
+
+.div_h_left, .div_h_right {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  overflow: hidden;
+}
+
+.div_h_left {
+  float: left;
+}
+
+.div_h_right {
+  float: right;
+}
+
+.textarea_width100 {
+  width: 95%;
+  margin: 10px;
+}
+
+.div_date {
+  height: 300px;
+  width: 95%;
+}

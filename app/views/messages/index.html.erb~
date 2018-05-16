@@ -1,0 +1,19 @@
+<div class="div_h_container">
+  <div class="div_h_left">
+    <p>
+      <textarea id="message_description" class="textarea_width100"></textarea>
+    </p>
+    <p>
+      <input type="button" value="Отправить" onclick="sendMessage()">
+    </p>
+  </div>
+  <div class="div_h_right">
+    <label id="countMessage">0</label>
+    <label id="countMessageDescription">запросов</label>
+    <p>
+      <div class="div_date">
+        <ul name="ul_date">
+        </ul>
+      <div>
+  <div>
+</div>
