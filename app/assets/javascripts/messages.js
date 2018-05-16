@@ -12,9 +12,8 @@ function sendMessage() {
       ul.appendChild(li);
       document.getElementById("message_description").value = "";
       document.getElementById("countMessage").innerHTML = result.count;
+      document.getElementById("countMessageDescription").innerHTML = result.request_description;
       }
-    }
-  
+    }  
   );
-
 }
